@@ -2,6 +2,5 @@ seleniumbase
 pytest
 pytest-cov
 flake8
-wheel
 trcli
 pytest-messenger
