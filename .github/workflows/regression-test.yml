@@ -31,4 +31,4 @@ jobs:
       run: |
         seleniumbase install chromedriver
     - name: Run regression tests
-      run: pytest --slack_hook=https://hooks.slack.com/services/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 --slack_channel=general --slack_username="Regression testing results"
+      run: pytest --tb=short
