@@ -29,4 +29,4 @@ jobs:
     - name: Install chromedriver
       run: seleniumbase install chromedriver
     - name: Run regression tests
-      run: pytest --tb=short
+      run: pytest --tb=short -vv
